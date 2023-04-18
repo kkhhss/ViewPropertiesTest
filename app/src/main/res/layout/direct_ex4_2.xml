@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="@dimen/button_width1"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_1"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/btn_1"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textSize="@dimen/text_size1"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_height1"
+        android:text="@string/text_1"
+        android:textSize="@dimen/text_size1"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginLeft="@dimen/margin_left"
+    />
+    <EditText
+        android:layout_width="@dimen/ET_width"
+        android:layout_height="@dimen/ET_height"
+        android:background="@color/Edit_text"
+        android:layout_marginLeft="@dimen/margin_left"
+    />
+    <Button
+    android:layout_width="@dimen/button_height1"
+    android:layout_height="@dimen/button_width1"
+    android:text="@string/btn_2"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/btn_2"
+    android:layout_marginTop="@dimen/margin_top"
+    android:layout_marginLeft="@dimen/margin_left"
+    android:textSize="@dimen/text_size1"
+
+    />
+
+
+</LinearLayout>
